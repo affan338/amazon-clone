@@ -3,4 +3,7 @@ module.exports = {
         domains: ['links.papareact.com', 'fakestoreapi.com']
     },
     distDir: 'build',
+    future: {
+        webpack5: true,
+    },
 };
